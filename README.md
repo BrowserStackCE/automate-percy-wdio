@@ -1,0 +1,1 @@
+# automate-percy-wdio
