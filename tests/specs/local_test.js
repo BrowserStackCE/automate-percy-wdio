@@ -8,6 +8,6 @@ describe('BStack Local Testing', () => {
       5000,
       "Failed to connect local tunnel"
     );
-    await percyScreenshot(driver, 'Screenshot 1');
+    await percyScreenshot(browser, 'Screenshot 1');
   });
 });
