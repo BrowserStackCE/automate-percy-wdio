@@ -1,0 +1,39 @@
+{
+  "name": "automate-percy-wdio",
+  "version": "1.0.0",
+  "readme": "Percy Automate WDIO Integration with [BrowserStack](https://www.browserstack.com)",
+  "description": "Percy Automate WDIO Integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx wdio conf/test.conf.js",
+    "local": "npx wdio conf/local-test.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrowserStackCE/automate-percy-wdio.git"
+  },
+  "keywords": [
+    "webdriverio",
+    "browserstack",
+    "selenium",
+    "tests"
+  ],
+  "author": "Yatin Satija",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrowserStackCE/automate-percy-wdio/issues"
+  },
+  "homepage": "https://github.com/BrowserStackCE/automate-percy-wdio#readme",
+  "dependencies": {
+    "@percy/cli": "^1.27.4",
+    "@percy/selenium-webdriver": "^2.0.1",
+    "@wdio/cli": "^7",
+    "chai": "^4.3.6",
+    "webdriverio": "^7"
+  },
+  "devDependencies": {
+    "@wdio/browserstack-service": "^7",
+    "@wdio/local-runner": "^7",
+    "@wdio/mocha-framework": "^7"
+  }
+}
